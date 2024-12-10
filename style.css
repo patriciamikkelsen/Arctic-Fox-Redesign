@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fjalla+One&display=swap');
+
+/* header styles */
+h1 {
+    font-family: "Fjalla One", "Cantarell", "Verdana", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: .1em;
+    color: #41241C;
+}
+
+h2 {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #41241C;
+}
+
+nav {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    font-weight: bold;
+    color: #41241C;
+    background-color: #9EA27E;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    
+    color: #41241C;
+    
+}
+
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+    
+    color: #9AD5DB;
+    
+}
+
+nav ul {
+    padding: 3px;
+    margin: 0;
+    
+    /* button */
+    list-style-type: none;
+    display: inline-flex;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: .1em;
+    display: inline-flex;
+    padding: 8px 6px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 10px;
+    background-color: #F7F0CD;
+}
+
+.navpic {
+    width: 175px;
+    height: 175px;
+    float: left;
+    display: inline-flex;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin: 10px;
+    background-color: #F7F0CD;
+    padding: 8px 6px;
+}
+
+/* body styles */
+body {
+    background-color: #9EA27E;
+    height: 100%;
+}
+
+main {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: #2C1A84;
+    border-radius: 15px;
+}
+
+h3 {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #9AD5DB;
+    padding-left: 5px;
+}
+
+p {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #9AD5DB;
+    padding-left: 5px;
+}
+
+blockquote {
+    font-family: "Fjalla One", "Cantarell", "Verdana", sans-serif;
+    color: #9AD5DB;
+}
+
+ul {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #9AD5DB;
+}
+
+.foxpics {
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.column img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.title {
+    font-family: "Fjalla One", "Cantarell", "Verdana", sans-serif;
+    text-align: left;
+    color: #9AD5DB;
+}
+
+/* aside styles */
+aside {
+    width: 30%;
+    float: right;
+    background-color: #F7F0CD;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+aside p {
+    color: #41241C;
+}
+
+aside p a:link, aside p a:visited {
+    color: #41241C;
+}
+
+aside p a:focus, aside p a:hover, aside p a:active {
+    color: #9AD5DB;
+}
+
+aside h3 {
+    color: #9EA27E;
+}
+
+/* form styles */
+fieldset {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #9AD5DB;
+    border-color: #F7F0CD;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+select {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #41241C;
+    background-color: #F7F0CD;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px;
+}
+
+option {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #41241C;
+    background-color: #F7F0CD;
+}
+
+input {
+    margin: 5px;
+    outline: none;
+}
+
+input[type=text] {
+    width: 30%;
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #41241C;
+    background-color: #F7F0CD;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 30%;
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #41241C;
+    background-color: #F7F0CD;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px;
+}
+
+input[type=submit] {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #41241C;
+    background-color: #F7F0CD;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=reset] {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #41241C;
+    background-color: #F7F0CD;
+    border: none;
+    border-radius: 5px;
+}
+
+/* footer styles */
+footer {
+    text-align: center;
+    width: 100%;
+}
+
+footer h3 {
+    color: #41241C;
+    font-weight: bold;
+}
+
+footer p {
+    color: #41241C;
+}
+
+footer p a {
+    padding: 8px 6px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 10px;
+    background-color: #F7F0CD;
+    text-decoration: none;
+}
+
+footer p a:link, footer p a:visited {
+    color: #41241C;
+}
+
+
+footer p a:focus, footer p a:hover, footer p a:active {
+    color: #9AD5DB;
+}
+
+figcaption {
+    font-family: "Cantarell", "Verdana", sans-serif;
+    color: #41241C;
+}
+
+.social {
+    width: 49%;
+    float: left;
+}
+
+.contact {
+    width: 49%;
+    float: right;
+}
+
+.figures {
+    clear: both;
+}
+
+.instagram1 {
+    width: 43%;
+    float: right;
+}
+
+.instagram2 {
+    width: 43%;
+    float: left;
+}
